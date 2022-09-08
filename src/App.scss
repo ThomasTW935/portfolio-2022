@@ -1,0 +1,36 @@
+$white: #ffffff;
+$dirtyWhite: #e6ecf8;
+$black: #141c3a;
+$purple: #7510f7;
+
+body {
+  height: 2000px;
+  padding-top: 102px;
+  color: $black;
+}
+header {
+  font-size: 20px;
+  height: 102px;
+  display: flex;
+  align-items: center;
+  background-color: $white;
+  transition: .3s ease-in;
+}
+.navBg-dark{
+  background-color: $black;
+  .nav-link, .nav-link.active{
+    color: $white;
+  }
+}
+#nav-left .nav-link {
+  margin-right: 80px;
+}
+#nav-right .nav-link {
+  svg {
+    height: 26px;
+    width: 26px;
+  }
+  &:first-child {
+    margin-right: 45px;
+  }
+}
