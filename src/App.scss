@@ -1,12 +1,11 @@
 $white: #ffffff;
 $dirtyWhite: #e6ecf8;
-$black: #141c3a;
+$black: rgb(20, 28, 58);
 $purple: #7510f7;
 
 body {
-  height: 2000px;
-  padding-top: 102px;
   color: $black;
+  padding-top: 17vh;
 }
 header {
   font-size: 20px;
@@ -32,5 +31,45 @@ header {
   }
   &:first-child {
     margin-right: 45px;
+  }
+}
+#hero {
+  height: 100vh;
+  section{
+    font-size: 50px;
+  }
+  span{
+    font-weight:bold;
+  }
+  &-text{
+    position:relative;
+    div:first-child{
+      font-size: 40px;
+    }
+  }
+  &-gif{
+    img{
+      height: 451px;
+      width: 451px;
+    }
+  }
+}
+#aboutus{
+  background-color: $purple;
+  
+  h2{
+    font-size: 50px;
+  }
+  p{
+    font-size:18px; 
+    max-width: 80%;
+    margin: 0 auto;
+  }
+  .info{
+    color: $white;
+  }
+  .skills{
+    background: $white;
+    border-radius: 20px;
   }
 }

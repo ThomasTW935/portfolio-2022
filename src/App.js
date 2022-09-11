@@ -1,14 +1,15 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.scss";
 
-import { NavBar,Hero } from "./components";
+import { NavBar,Hero,AboutUs } from "./components";
 
 function App() {
   return (
     <div className="App">
       <NavBar />
-      <div class="container">
+      <div class="">
         <Hero/> 
+        <AboutUs/>
       </div>
     </div>
   );
